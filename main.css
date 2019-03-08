@@ -1,0 +1,49 @@
+body{
+    margin: 0px;
+}
+
+header{
+    background-image: linear-gradient(to left,#bdc3c7,#2c3e50);
+    width: 100%;
+    height: 100vh;
+}
+
+.container{
+    height: 76vh;
+    width: 76vw;
+    position: absolute;
+    top: 12vh;
+    right: 12vw;
+    box-shadow: -3px 2px 87px 49px rgba(0,0,0,0.43);
+    background-image: linear-gradient(to right,#bdc3c7,#2c3e50);
+}
+#greeting{
+    width: 60%;
+    height: 100%;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+} 
+
+h1{
+    margin: 0px;
+    font-size: 100px;
+    color: #2c3e50;
+    filter: opacity(70%);
+    text-shadow: 3px 3px #bdc3c7;
+}
+
+#photo-header{
+    width: 40%;
+    height: 100%;
+    float: right;
+    filter: opacity(70%);
+}
+
+nav{
+    background-image: linear-gradient(to left,#0b8793,#360033);
+    width: 100%;
+    height: 100vh;
+}
