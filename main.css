@@ -44,4 +44,36 @@ h1{
 
 nav{
     background-image: linear-gradient(to left,#0b8793,#360033);
+    height: 10vh;
 }
+
+#aboutMe{
+    height: 110vh;
+    background-image: url('photo/Uniwersytet.png');
+    background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+#photo-me{
+    width: 12vw;
+    height: 40vh;
+    margin-top: 10%;
+    transform: rotate(-10deg);
+    z-index: 1;
+    box-shadow: -3px 2px 87px 49px rgba(0,0,0,0.43);
+    /* zoom in jquery */
+}
+
+.content-aboutMe{
+    height: 76vh;
+    width: 76vw;
+    position: absolute;
+    top: 122vh;
+    right: 12vw;
+    background: rgb(0, 0, 0); 
+    background: rgba(0, 0, 0, 0.5); 
+}
+
+
