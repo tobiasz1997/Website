@@ -28,7 +28,7 @@
         <div class="collapse navbar-collapse " id="cos">
             <ul class="navbar-nav active mx-auto">
                 <li class="nav-item mr-5">
-                    <a class="nav-link" href="#">O mnie</a>
+                    <a class="nav-link" href="#aboutMe">O mnie</a>
                 </li>
                 <li class="nav-item mr-5">
                     <a class="nav-link" href="#">Umiejętności</a>
@@ -43,9 +43,9 @@
         </div>
     </nav>
 
-    <article>
-        <selection>
-            <div id="aboutMe">
+    <selection>
+        <article id="aboutMe">
+            <a name="aboutMe">&nbsp;</a>
                 <div class="content-aboutMe">
                     <img src="photo/fota.png" id="photo-me">
                     <p>
@@ -54,16 +54,47 @@
                         zdobywać nową wiedzę,lubię wyzwania i uważam, że dzieki rozwijajacej sie technologii oraz zapotrzebowaniu rynku 
                         na różne usługi informatyczne będę mógł się spełniać. Hobby: muzyka(gram na saksofonie), sport oraz seriale.
                     </p>
+                </div>           
+        </article>
+        <article id="abilities">
+            <div class="kontener2">
+                <div id>
+                    <ul>
+                        <li><a>HTML5</a><progress value="1" max="100" data-values="85"></progress></li>
+                        <li><a>CSS3</a><progress value="1" max="100" data-values="85"></progress></li>
+                        <li><a>Bootstrap4</a><progress value="1" max="100" data-values="50"></progress></li>
+                        <li><a>JavaScript</a><progress value="1" max="100" data-values="65"></progress></li>
+                        <li><a>jQuery</a><progress value="1" max="100" data-values="75"></progress></li>
+                        <li><a>C#</a><progress value="1" max="100" data-values="90"></progress></li>
+                        <li><a>.NET Core</a><progress value="1" max="100" data-values="10"></progress></li>
+                        <li><a>AutoCad</a><progress value="1" max="100" data-values="60"></progress></li>
+                        <li><a>HTML</a><progress value="1" max="100" data-values="22"></progress></li>
+                    </ul>
                 </div>
             </div>
-        </selection>
-    </article>
+        </article>
+        <article id="portfolio">
+            <div class="">
+                
+                    
+            </div> 
+        </article>
+        <article id="contact">
+                <div class="">
+                    
+                        
+                </div> 
+        </article>
 
-    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    </selection>
+
+    <br><br>
     <!-- podpiąc jquery i popper.js -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="js/bootstrap.min.js"></script>
-    <script src="charakter.js"></script>
+    <script type="text/javascript" src="jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="charakter.js"></script>
+    <script type="text/javascript" src="progress.js"></script>
 </body>
 </html>
