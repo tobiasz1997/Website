@@ -12,5 +12,10 @@ $(function(){
     }
     $('span').css({'padding-left':'10px','font-size':'20px'})
     $('span').hide().delay(300).fadeIn(800);
+
+    if ($(window).outerWidth() < 1300) {
+        $('img').css('width', '80%');
+      }
 });
+
 
