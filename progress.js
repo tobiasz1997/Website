@@ -10,6 +10,7 @@ $(function(){
         let text = '<span>'+ $bla +'%</span>';
         $('progress').eq(i).after(text);
     }
+    $('span').css({'padding-left':'10px','font-size':'20px'})
     $('span').hide().delay(300).fadeIn(800);
 });
 
