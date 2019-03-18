@@ -1,4 +1,5 @@
-const text = 'Hi, I am Grzegorz :D';
+
+const text = 'Cześć ! Jestem Grzesiek :)';
 const greeting = document.getElementById('greeting');
 const title = '';
 
@@ -15,10 +16,22 @@ function writing(){
             clearInterval(interval);
         }
 
-    }, 100);
+    }, 300, 'slow');
 
 }
 
 greeting.addEventListener('load',writing(), false);
 
+window.addEventListener('scroll',function(){
+    const scrollY = window.pageYOffset
+    
+    if(scrollY==0){
+        writing();
+    }
+    if(scrollY>800){
+        let content = document.getElementById('greeting'); 
+        content.innerHTML = ' ';
+    }
+
+},false);
 
