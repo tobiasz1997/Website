@@ -1,23 +1,15 @@
 body{
     margin: 0px;
     font-size: 20px;
+    color: white;
 }
 
 header{
-    background-image: linear-gradient(to right,#0D19A3,#080F5B);
+    background-image: linear-gradient(to right,#0b8793,#c9c9c9);
     width: 100%;
     height: 100vh;
 }
 
-.kontener{
-    height: 76vh;
-    width: 76vw;
-    position: absolute;
-    top: 12vh;
-    right: 12vw;
-    box-shadow: -3px 2px 87px 49px rgba(0,0,0,0.43);
-    background-image: linear-gradient(to right,#080F5B,#0D19A3);
-}
 #greeting{
     width: 60%;
     height: 100%;
@@ -31,9 +23,9 @@ header{
 h1{
     margin: 0px;
     font-size: 100px;
-    color: #15DB95;
+    color: #31708E;
     filter: opacity(70%);
-    text-shadow: 3px 3px #F4e4C1;
+    text-shadow: 3px 3px #687864;
 }
 
 #photo-header{
@@ -46,8 +38,11 @@ h1{
 
 nav{
     background-image: linear-gradient(to left,#0b8793,#360033);
+    /* background-image: linear-gradient(to right,#31708E,#8fc1e3); */
     height: 10vh;
 }
+
+
 
 /* ....................................About_me............................... */
 
@@ -67,8 +62,7 @@ nav{
     top: 12vh;
     left: 12vw;
     background: rgb(0, 0, 0); 
-    background: rgba(0, 0, 0, 0.5); 
-    color: white;
+    background: rgba(0, 0, 0, 0.5);    
     text-align: center;
     display: flex;
     align-items: center;
@@ -116,17 +110,16 @@ nav{
     height: 10vh;
     text-align: center;
     padding-top: 5vh;
-    color: white;
 }
 
 #CSS-info,#JavaScript-info,#MySQL-info,#Net-info,#AutoCad-info{
     display: none;
-    background-image: linear-gradient(to left,#080F5B,#0D19A3);
+    background-image: linear-gradient(to right,#0b8793,#c9c9c9);
 
 }
 
 #abilities{
-    background-image: linear-gradient(to right,#0D19A3,#080F5B);
+    background-image: linear-gradient(to right,#0b8793,#c9c9c9);
     width: 100%;
     height: 100vh;
 }
@@ -138,7 +131,7 @@ nav{
     top: 12vh;
     left: 12vw;
     box-shadow: -3px 2px 87px 49px rgba(0,0,0,0.43);
-    background-image: linear-gradient(to right,#080F5B,#0D19A3);
+    background-image: linear-gradient(to left,#0b8793,#c9c9c9);
 }
 
 #portfolio{
@@ -172,7 +165,8 @@ progress::-webkit-progress-value {
         -webkit-linear-gradient(top, 
                                  rgba(255, 255, 255, .25), 
                                  rgba(0, 0, 0, .25)),
-        -webkit-linear-gradient(right,#080F5B,#0D19A3);
+        -webkit-linear-gradient(right,#0b8793,#c9c9c9);
+        
   
     border-radius: 2px; 
     background-size: 35px 20px, 100% 100%, 100% 100%;
@@ -183,7 +177,7 @@ span {
 }
 
 .listOfTechnologies{
-    color: white;
+    
     list-style-type: none;
     width: 100%;
     height: 100%;   
@@ -213,7 +207,7 @@ td:first-child{
     left: 12vw;
     background: rgb(0, 0, 0); 
     background: rgba(0, 0, 0, 0.5); 
-    color: white;
+    
     text-align: center;
     display: flex;
     align-items: center;
@@ -273,7 +267,7 @@ i:hover{
 }
 
 #contact{
-    background-image: linear-gradient(to right,#0D19A3,#080F5B);
+    background-image: linear-gradient(to right,#0b8793,#c9c9c9);
     width: 100%;
     height: 80vh;
 }
@@ -285,8 +279,8 @@ i:hover{
     top: 12vh;
     left: 12vw;
     box-shadow: -3px 2px 87px 49px rgba(0,0,0,0.43);
-    background-image: linear-gradient(to right,#080F5B,#0D19A3);
-    color: white;
+    background-image: linear-gradient(to left,#0b8793,#c9c9c9);
+    
     text-align: center;
     display: flex;
     align-items: center;
@@ -315,15 +309,12 @@ i:hover{
     overflow: hidden;
 }
 
-/* .item23:nth-child(even) {
-    
-} */
 
 footer{
     background-image: linear-gradient(to left,#0b8793,#360033);
     width: 100%;
     height: 10vh;
-    color: white;
+    
     padding-top: 3vh;
     text-align: center;
 }
@@ -333,4 +324,7 @@ footer{
     bottom: 10px;
     right: 10px;
     display: none;
+    border-radius: 60px;
+    background-image: linear-gradient(to right,#0b8793,#360033);
+    border: none;
 }

@@ -108,21 +108,23 @@ if(isset($_POST['emailInput'])){
 
 }
 
-?>
+?> 
 
 <!DOCTYPE HTML>
 <html>
 <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Grzegorz Tobiasz</title>
-    <link rel="stylesheet" type="text/css" media="screen" href="loginAnimation.js">
-    <link rel="stylesheet" type="text/css" media="screen" href="loginStyle.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="loginStyle.css?version=42">
     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 </head>
 <body>
     <div class="kontener">
+    <div class="loginDiv">
         <h2>Logowanie</h2>
+        <button id="slideLogin">dsada</button>
         <form id="loginForm" action="loginGo.php" method="post">
             Login:<br />
             <input type="text" placeholder="login / email" name="loginInput"/><br /><br />
@@ -137,6 +139,8 @@ if(isset($_POST['emailInput'])){
                 }
             ?>
         </form>
+    </div>
+    <div class="registrDiv">
         <form id="registrForm" method="post">
             Login:<br />
             <input type="text" placeholder="login" name="loginInput1"/><br /><br />
@@ -179,8 +183,11 @@ if(isset($_POST['emailInput'])){
             ?>
             <input type="submit" value="zarejestruj sie"/>
             
-
         </form>
+    </div>      
     </div>
+
+    <script type="text/javascript" src="jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="loginAnimation.js"></script>
 </body>
 </html>

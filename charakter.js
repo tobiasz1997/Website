@@ -16,7 +16,7 @@ function writing(){
             clearInterval(interval);
         }
 
-    }, 300, 'slow');
+    }, 100, 'fast');
 
 }
 
@@ -24,14 +24,16 @@ greeting.addEventListener('load',writing(), false);
 
 window.addEventListener('scroll',function(){
     const scrollY = window.pageYOffset
-    
-    if(scrollY==0){
-        writing();
-    }
     if(scrollY>800){
         let content = document.getElementById('greeting'); 
-        content.innerHTML = ' ';
+        content.innerHTML = '';
     }
-
+    
+    if(scrollY==0){
+        let content = document.getElementById('greeting'); 
+        content.innerHTML = '';
+        writing();
+        
+    }
 },false);
 

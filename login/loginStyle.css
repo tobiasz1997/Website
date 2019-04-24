@@ -18,12 +18,27 @@ body{
     padding: 20px;
 }
 
+#loginDiv{
+    height: 100%;
+    width: 50%;
+    float: left;
+}
+
+#registrDiv{
+    height: 100%;
+    width: 50%;
+}
+
 h2{
     text-align: center;
 }
 
 .error{
     color: red;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+
+#loginForm {
+     display: none; 
 }

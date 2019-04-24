@@ -26,7 +26,7 @@ window.onload = function(){
             
             for(let i=0; i<9; i++){
                 const $bla = $('progress').eq(i).attr('data-values');
-                $('progress').eq(i).attr('value', '1').animate({value: $bla},600,'swing');
+                $('progress').eq(i).attr('value', '1').animate({value: $bla},2600,'swing');
             }
             
         }
